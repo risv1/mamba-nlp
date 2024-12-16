@@ -1,6 +1,6 @@
 # Mamba NLP in PyTorch
 
-This repository contains a basic PyTorch implementation of the [Mamba](https://arxiv.org/abs/2312.00752) model for NLP, inspired by transformer architectures with a focus on integrating a Selective State Space Model (SSM) and MambaBlock design for improved sequence modeling. The model is designed to handle tasks such as text generation, classification, and other NLP applications.
+This repository contains a basic PyTorch implementation of the [Mamba](https://arxiv.org/abs/2312.00752) model for NLP, inspired by transformer architectures with a focus on integrating a Selective State Space Model (SSM) and MambaBlock design for improved sequence modeling.
 
 ## Components
 
