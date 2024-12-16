@@ -12,7 +12,7 @@ class MambaBlock(nn.Module):
 
         self.ff = nn.Sequential(
             nn.Linear(d_model, d_ff),
-            nn.GELU(),  # Damn never heard of this activation function before until now 😅 (ref for myself: https://medium.com/@shauryagoel/gelu-gaussian-error-linear-unit-4ec59fb2e47c) 
+            nn.GELU(),  # Damn never heard of this activation function before until now 😅 (ref for myself: https://medium.com/@shauryagoel/gelu-gaussian-error-linear-unit-4ec59fb2e47c)
             nn.Dropout(dropout),
             nn.Linear(d_ff, d_model),
             nn.Dropout(dropout)
