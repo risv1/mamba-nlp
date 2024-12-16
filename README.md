@@ -7,7 +7,7 @@ This repository contains a basic PyTorch implementation of the [Mamba](https://a
 1. ssm.py: Defines the SelectiveSSM module, which models sequences using state-space transformations with attention mechanisms, offering an alternative to standard transformer attention for certain tasks.
 2. block.py: Implements the MambaBlock, which combines the SelectiveSSM module with feedforward layers and residual connections, providing robust processing of sequences.
 3. encode.py: Contains the PositionalEncoding class for adding position-based information to token embeddings, critical for sequence understanding.
-4. model.py: Defines the overall MambaForNLP model, which incorporates the SelectiveSSM blocks, positional encodings, and the final output layer for generating predictions.
+4. nlp.py: Defines the overall MambaForNLP model, which incorporates the SelectiveSSM blocks, positional encodings, and the final output layer for generating predictions.
 
 ## Usage
 
